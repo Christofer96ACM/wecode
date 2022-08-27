@@ -1,13 +1,30 @@
+@font-face {
+  font-family: 'BBVABentonSansLight-Bold';
+  src: local('Bbva'), url(./Fuentes/BBVABentonSansLight-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BBVABentonSansLight-BoldItalic';
+  src: local('Bbva'), url(./Fuentes/BBVABentonSansLight-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BBVABentonSans-Bold';
+  src: local('Bbva'), url(./Fuentes/BBVABentonSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BBVABentonSans-BoldItalic';
+  src: local('Bbva'), url(./Fuentes/BBVABentonSans-BoldItalic.ttf) format('truetype');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(./Media/Background.png) no-repeat;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

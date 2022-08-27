@@ -10,7 +10,6 @@ function App() {
         </img>
       </header>
       <body>
-        <Base></Base>
       </body>
     </div>
   );
